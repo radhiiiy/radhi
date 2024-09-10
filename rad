@@ -1,0 +1,239 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+ 
+int main() {
+	
+	int pilihmenu;
+	char ulang;
+	
+	
+
+	system("color E");
+	
+	cout<<"====================="<<endl;
+	cout<<"SELAMAT DATANG DI TOKO MARMER \n";
+	cout<<" pilih menu 1-5";
+	cout<<"\n 1 = marmer ocra \n 2 = marmer pearl \n 3 = marmer shade \n 4 = marmer laterite \n 5 = marmer coal"<<endl;
+	cout<<"====================="<<endl;
+	
+	do {
+		
+	cout<<"code = ";
+	cin>>pilihmenu;
+	
+	
+	switch (pilihmenu){
+	
+	
+	
+	
+		case 1 :
+			cout<<"Anda akan membeli marmer ocra \n silahkan pilih ukuran \n 1 = 40 meter Rp.200.000/m2 \n 2 = 50 meter Rp.220.000/m2 \n 3 = custom Rp.250.000 \n code = ";
+			int menu,ocra1,ocra2,custom,total,beli;
+			
+			ocra1 = 200000;
+			ocra2 = 220000;
+			custom = 250000;
+			
+			cin>>menu;
+			
+			
+				if (menu == 1){
+				
+					cout<<"anda membeli marmer ocra ukuran 40 meter dengan harga Rp.200.000/m2 \n mau beli berapa meter? \n 40 meter x ";
+					cin>>beli;
+					total = ocra1 * beli;
+					cout<<"total belanjaan anda : Rp. "<<total<<endl;}
+				else if (menu ==2){
+				
+						cout<<"anda membeli marmer ocra ukuran 50 meter dengan harga Rp.220.000/m2 \n mau beli berapa meter? \n 50 meter x ";
+					cin>>beli;
+					total = ocra2 * beli;
+					cout<<"total belanjaan anda : Rp."<<total<<endl;}
+				else if (menu ==3){
+				
+						cout<<"anda membeli marmer ocra custom dengan harga Rp.250.000/m2 \n mau beli berapa \n custom x ";
+					cin>>beli;
+					total = custom* beli;
+					cout<<"total belanjaan anda : Rp."<<total<<endl;}
+				else 
+					cout<<" Error"<<endl;
+				
+			
+			break;
+			
+		case 2 :
+			cout<<"Anda akan membeli marmer pearl \n silahkan pilih ukuran \n 1 = 40 meter Rp.150.000/m2 \n 2 = 50 meter Rp.160.000/m2 \n 3 = custom Rp.170.000 \n code = ";
+			int menu1,pearl1,pearl2,custom1,total1,beli1;
+			
+			pearl1 = 150000;
+			pearl2 = 160000;
+			custom1 = 170000;
+			
+			cin>>menu1;
+			
+			
+				if (menu1 == 1){
+				
+					cout<<"anda membeli marmer pearl ukuran 40 meter dengan harga Rp.150.000/m2 \n mau beli berapa meter? \n 40 meter x ";
+					cin>>beli1;
+					total1 = pearl1 * beli1;
+					cout<<"total belanjaan anda : Rp. "<<total1<<endl;}
+				else if (menu1 ==2){
+				
+						cout<<"anda membeli marmer pearl ukuran 50 meter dengan harga Rp.160.000/m2 \n mau beli berapa meter? \n 50 meter x ";
+						cin>>beli1;
+					total1 = pearl2 * beli1;
+					cout<<"total belanjaan anda : Rp."<<total1<<endl;}
+				else if (menu1 ==3){
+				
+						cout<<"anda membeli marmer pearl custom dengan harga Rp.170.000/m2 \n mau beli berapa \n custom x ";
+						cin>>beli1;
+					total1 = custom1* beli1;
+					cout<<"total belanjaan anda : Rp."<<total1<<endl;}
+				else 
+					cout<<" Error"<<endl;
+				
+			break;
+			
+			
+			
+			
+			
+		case 3 :
+			cout<<"Anda akan membeli marmer shade \n silahkan pilih ukuran \n 1 = 40 meter Rp.200.000/m2 \n 2 = 50 meter Rp.200.000/m2 \n 3 = custom Rp.200.000 \n code = ";
+			int menu2,shade1,shade2,custom2,total2,beli2;
+			
+			shade1 = 200000;
+			shade2 = 200000;
+			custom2= 200000;
+			
+			cin>>menu2;
+			
+			
+				if (menu2 == 1){
+				
+					cout<<"anda membeli marmer shade ukuran 40 meter dengan harga Rp.200.000/m2 \n mau beli berapa meter? \n 40 meter x ";
+					cin>>beli2;
+					total2 = shade1 * beli2;
+					cout<<"total belanjaan anda : Rp. "<<total2<<endl;}
+				else if (menu2 ==2){
+				
+						cout<<"anda membeli marmer shade ukuran 50 meter dengan harga Rp.200.000/m2 \n mau beli berapa meter? \n 50 meter x ";
+						cin>>beli2;
+					total = shade2 * beli;
+					cout<<"total belanjaan anda : Rp."<<total2<<endl;}
+				else if (menu2 ==3){
+				
+						cout<<"anda membeli marmer ocra custom dengan harga Rp.200.000/m2 \n mau beli berapa \n custom x ";
+						cin>>beli2;
+					total2 = custom2* beli2;
+					cout<<"total belanjaan anda : Rp."<<total2<<endl;}
+				else 
+					cout<<" Error"<<endl;
+				
+			break;
+			
+				
+			
+			
+		case 4 :
+			cout<<"Anda akan membeli marmer laterite \n silahkan pilih ukuran \n 1 = 40 meter Rp.300.000/m2 \n 2 = 50 meter Rp.300.000/m2 \n 3 = custom Rp.350.000 \n code = ";
+			int menu3,laterite1,laterite2,custom3,total3,beli3;
+			
+			laterite1 = 300000;
+			laterite2 = 300000;
+			custom3 = 350000;
+			
+			cin>>menu3;
+			
+			
+				if (menu3 == 1){
+				
+					cout<<"anda membeli marmer laterite ukuran 40 meter dengan harga Rp.300.000/m2 \n mau beli berapa meter? \n 40 meter x ";
+					cin>>beli3;
+					total3 = laterite1 * beli3;
+					cout<<"total belanjaan anda : Rp. "<<total3<<endl;}
+				else if (menu3 ==2){
+				
+						cout<<"anda membeli marmer laterite ukuran 50 meter dengan harga Rp.300.000/m2 \n mau beli berapa meter? \n 50 meter x ";
+						cin>>beli3;
+					total3 = laterite2 * beli3;
+					cout<<"total belanjaan anda : Rp."<<total3<<endl;}
+				else if (menu3 ==3){
+				
+						cout<<"anda membeli marmer laterite custom dengan harga Rp.350.000/m2 \n mau beli berapa \n custom x ";
+						cin>>beli3;
+					total3 = custom3* beli3;
+					cout<<"total belanjaan anda : Rp."<<total3<<endl;}
+				else 
+					cout<<" Error"<<endl;
+				
+			break;
+			
+				
+			
+			
+			
+		case 5 :
+			cout<<"Anda akan membeli marmer coal \n silahkan pilih ukuran \n 1 = 40 meter Rp.100.000/m2 \n 2 = 50 meter Rp.120.000/m2 \n 3 = custom Rp.130.000 \n code = ";
+			int menu4,coal1,coal2,custom4,total4,beli4;
+			
+			coal1 = 100000;
+			coal2 = 120000;
+			custom = 130000;
+			
+			cin>>menu4;
+			
+			
+				if (menu4 == 1){
+				
+					cout<<"anda membeli marmer coal ukuran 40 meter dengan harga Rp.100.000/m2 \n mau beli berapa meter? \n 40 meter x ";
+					cin>>beli4;
+					total4= coal1 * beli4;
+					cout<<"total belanjaan anda : Rp. "<<total4<<endl;}
+				else if (menu4 ==2){
+				
+						cout<<"anda membeli marmer coal ukuran 50 meter dengan harga Rp.120.000/m2 \n mau beli berapa meter? \n 50 meter x ";
+						cin>>beli4;
+					total4 = ocra2 * beli;
+					cout<<"total belanjaan anda : Rp."<<total4<<endl;}
+				else if (menu4 ==3){
+				
+						cout<<"anda membeli marmer coal custom dengan harga Rp.130.000/m2 \n mau beli berapa \n custom x ";
+						cin>>beli4;
+					total4 = custom4* beli4;
+					cout<<"total belanjaan anda : Rp."<<total4<<endl;}
+				else 
+					cout<<" Error"<<endl;
+				
+			break;
+			
+			default : 
+				cout<<"Error hanya memberi 1-5 inputan"<<endl;
+				break;
+		}
+			
+	
+		cout<<"inputkan Y/T untuk pesan kembali = ";
+		cin>>ulang;
+	
+	
+	}	while (ulang == 'y' || ulang == 'Y');
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
